@@ -120,7 +120,7 @@ function HomeScreen({ navigation}) {
                     style={[styles.modalButton, styles.modalButtonClose]}
                     onPress={() => setModalVisible(!modalVisible)}
                     >
-                    <Text style={styles.modalTextStyle}>Close</Text>
+                    <Text style={styles.modalTextStyle}>Try Another Place</Text>
                     </Pressable>
                 </View>
                 </View>
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
       modalButtonClose: {
         backgroundColor: '#FAE7E2',
         height: 40,
-        width: 120,
+        width: 200,
         padding: 10,
       },
       modalTextStyle: {
